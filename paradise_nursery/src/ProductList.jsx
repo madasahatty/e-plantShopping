@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Header from './Header.jsx';
 import { addItem, selectCartItems } from './CartSlice.jsx';
